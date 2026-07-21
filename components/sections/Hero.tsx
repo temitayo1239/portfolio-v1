@@ -87,7 +87,7 @@ export default function Hero() {
         <motion.div variants={itemVariants} className="mt-16 flex justify-center space-x-6 text-slate-500">
           {[
             { icon: FaGithub, href: 'https://github.com/temitayo1239', label: 'GitHub' },
-            { icon: FaLinkedin, href: '#', label: 'LinkedIn' },
+            // { icon: FaLinkedin, href: '#', label: 'LinkedIn' },
             { icon: MessageSquare, href: '#', label: 'WhatsApp' }
           ].map((social, idx) => (
             <a 

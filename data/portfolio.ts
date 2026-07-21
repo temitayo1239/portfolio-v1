@@ -44,7 +44,7 @@ export const SKILLS_DATA: SkillCategory[] = [
     skills: [
       { name: "Node.js", level: 85, icon: "FaNodeJs" },
       { name: "NestJS", level: 80, icon: "SiNestjs" },
-      { name: "Express.js", level: 88, icon: "SiExpress" }
+      // { name: "Express.js", level: 88, icon: "SiExpress" }
     ]
   },
   {
@@ -52,14 +52,14 @@ export const SKILLS_DATA: SkillCategory[] = [
     title: "Persistence & Data Modeling",
     skills: [
       { name: "PostgreSQL", level: 82, icon: "BiLogoPostgresql" },
-      { name: "MongoDB", level: 85, icon: "SiMongodb" }
+      // { name: "MongoDB", level: 85, icon: "SiMongodb" }
     ]
   },
   {
     id: "tools",
     title: "Infrastructure & Tools",
     skills: [
-      { name: "Docker", level: 75, icon: "FaDocker" },
+      // { name: "Docker", level: 75, icon: "FaDocker" },
       { name: "Git / GitHub", level: 92, icon: "FaGithub" },
       { name: "Figma", level: 80, icon: "FaFigma" }
     ]
@@ -101,16 +101,16 @@ export const PROJECTS_DATA: Project[] = [
     featured: true,
     category: "frontend"
   },
-  {
-    id: "auth-system",
-    title: "Production Cryptographic Auth Core",
-    description: "An abstracted production authentication gateway module deploying JSON Web Tokens (JWT) inside HTTP-only cookies featuring cryptographic session refresh state loops.",
-    status: "Completed",
-    technologies: ["NestJS", "TypeScript", "PostgreSQL", "Docker"],
-    githubUrl: "https://github.com/temitayo1239/auth-core",
-    features: ["Asymmetric key pairs for authorization headers", "Strict rate-limiting middleware integrations", "Automated relational database migration test pipelines"],
-    isCollaborative: false,
-    featured: false,
-    category: "system"
-  }
+  // {
+  //   id: "auth-system",
+  //   title: "Production Cryptographic Auth Core",
+  //   description: "An abstracted production authentication gateway module deploying JSON Web Tokens (JWT) inside HTTP-only cookies featuring cryptographic session refresh state loops.",
+  //   status: "Completed",
+  //   technologies: ["NestJS", "TypeScript", "PostgreSQL", "Docker"],
+  //   githubUrl: "https://github.com/temitayo1239/auth-core",
+  //   features: ["Asymmetric key pairs for authorization headers", "Strict rate-limiting middleware integrations", "Automated relational database migration test pipelines"],
+  //   isCollaborative: false,
+  //   featured: false,
+  //   category: "system"
+  // }
 ];
