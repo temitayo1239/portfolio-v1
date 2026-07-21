@@ -1,6 +1,18 @@
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+import type { AppProps } from 'next/app';
+import '../app/globals.css';
+import CustomCursor from '../components/ui/CustomCursor';
+import AnimatedBlobBackground from '../components/ui/AnimatedBlobBackground';
+import CommandMenu from '../components/ui/CommandMenu';
+import ScrollProgress from '../components/ui/ScrollProgress';
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <ScrollProgress />
+      <CustomCursor />
+      <AnimatedBlobBackground />
+      <CommandMenu />
+      <Component {...pageProps} />
+    </>
+  );
 }
