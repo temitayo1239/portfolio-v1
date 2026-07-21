@@ -88,7 +88,7 @@ export default function Hero() {
           {[
             { icon: FaGithub, href: 'https://github.com/temitayo1239', label: 'GitHub' },
             // { icon: FaLinkedin, href: '#', label: 'LinkedIn' },
-            { icon: MessageSquare, href: '#', label: 'WhatsApp' }
+            { icon: MessageSquare, href: 'https://wa.me/2347042786229', label: 'WhatsApp' }
           ].map((social, idx) => (
             <a 
               key={idx} 
