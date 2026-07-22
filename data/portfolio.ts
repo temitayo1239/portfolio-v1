@@ -85,9 +85,9 @@ export const PROJECTS_DATA: Project[] = [
     title: "Darté",
     description: "A collaborative high-fidelity design-to-code project execution dashboard built natively for fast-moving engineering teams requiring high situational awareness.",
     status: "Completed",
-    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    githubUrl: "https://github.com/temitayo1239/darte",
-    liveUrl: "https://darte-demo.vercel.app",
+    technologies: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
+    githubUrl: "https://github.com/darteuniverse-art/DarteFrontEnd.git",
+    liveUrl: "HTTPS://darte-store.vercel.app",
     features: ["Real-time asset mutation pipeline", "Scoped multi-tenant authorization protocols", "Integrated Kanban event listeners"],
     isCollaborative: true,
     contributions: {
