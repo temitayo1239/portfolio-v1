@@ -10,7 +10,6 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ![Portfolio Preview](./public/preview.png)
 
-> Replace `preview.png` with a screenshot of your homepage.
 
 ---
 
