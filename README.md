@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## 🌐 Live Demo
 
-🔗 https://portfolio-v1-eta-jade.vercel.app/
+🔗 https://temitayo-job-portfolio.vercel.app/
 
 ## 📸 Preview
 
@@ -93,7 +93,7 @@ http://localhost:3000
 
 **Temitayo Job**
 
-- Portfolio: https://portfolio-v1-eta-jade.vercel.app/
+- Portfolio: https://temitayo-job-portfolio.vercel.app/
 - GitHub: https://github.com/temitayo1239
 - Email: temitayojob19@gmail.com
 
