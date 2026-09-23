@@ -34,10 +34,10 @@ export default function Contact() {
                 </h4>
 
                 <a
-                  href="mailto:temitayo.job@gmail.com"
+                  href="mailto:temitayojob19@gmail.com"
                   className="text-sm font-semibold text-slate-200 hover:text-cyan-400 transition-colors mt-0.5 block"
                 >
-                  temitayo.job@gmail.com
+                  temitayojob19@gmail.com
                 </a>
               </div>
             </div>
