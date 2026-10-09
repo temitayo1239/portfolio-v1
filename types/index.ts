@@ -16,7 +16,7 @@ export interface Project {
   isCollaborative: boolean;
   contributions?: ProjectContribution;
   featured: boolean;
-  category: 'frontend' | 'fullstack' | 'system';
+  category: 'frontend' | 'fullstack' | 'backend';
 }
 
 export interface Skill {

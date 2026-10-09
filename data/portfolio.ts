@@ -101,16 +101,46 @@ export const PROJECTS_DATA: Project[] = [
     featured: true,
     category: "frontend"
   },
-  // {
-  //   id: "auth-system",
-  //   title: "Production Cryptographic Auth Core",
-  //   description: "An abstracted production authentication gateway module deploying JSON Web Tokens (JWT) inside HTTP-only cookies featuring cryptographic session refresh state loops.",
-  //   status: "Completed",
-  //   technologies: ["NestJS", "TypeScript", "PostgreSQL", "Docker"],
-  //   githubUrl: "https://github.com/temitayo1239/auth-core",
-  //   features: ["Asymmetric key pairs for authorization headers", "Strict rate-limiting middleware integrations", "Automated relational database migration test pipelines"],
-  //   isCollaborative: false,
-  //   featured: false,
-  //   category: "system"
-  // }
+
+  {
+    id: "nova",
+    title: "NOVA — Full-Stack E-Commerce Platform",
+    description: "A modern full-stack e-commerce platform built to deliver a seamless online shopping experience, combining a responsive Next.js storefront with a NestJS REST API for authentication, product discovery, shopping cart management, and order workflows.",
+    extendedDescription: "NOVA integrates a Next.js frontend with a modular NestJS backend and PostgreSQL database powered by TypeORM. The platform connects user authentication, product listings, cart operations, and payment-related workflows through structured API endpoints, with Swagger documentation supporting API exploration and testing.",
+    status: "Completed",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "NestJS", "PostgreSQL", "TypeORM", "JWT"],
+    githubUrl: "https://github.com/temitayo1239/NOVA-Frontend",
+    features: [
+      "Responsive e-commerce storefront and product discovery",
+      "JWT-based user authentication and account management",
+      "Backend-integrated shopping cart operations",
+      "Product inventory and stock availability handling",
+      "RESTful API architecture with Swagger documentation",
+      "PostgreSQL database integration using TypeORM"
+    ],
+    isCollaborative: false,
+    featured: true,
+    category: "fullstack"
+  },
+
+  {
+    id: "nova-backend",
+    title: "NOVA — E-Commerce Backend API",
+    description: "A full-stack e-commerce backend built with NestJS and PostgreSQL, providing RESTful API endpoints for authentication, product management, shopping cart operations, payment workflows, and user management.",
+    status: "Completed",
+    technologies: ["NestJS", "TypeScript", "PostgreSQL", "TypeORM", "JWT", "Swagger"],
+    githubUrl: "https://github.com/temitayo1239/NOVA-Backend",
+    features: [
+      "JWT-based authentication and user management",
+      "RESTful API endpoints for product and cart operations",
+      "PostgreSQL database integration using TypeORM",
+      "API documentation and testing with Swagger",
+      "Cart cancellation and order status management",
+      "Modular backend architecture for maintainability"
+    ],
+    isCollaborative: false,
+    featured: true,
+    category: "backend"
+  }
+
 ];

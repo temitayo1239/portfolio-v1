@@ -11,7 +11,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { ExternalLink, ShieldAlert, Layers } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa6';
 
-type FilterCategory = 'all' | 'frontend' | 'fullstack' | 'system';
+type FilterCategory = 'all' | 'frontend' | 'fullstack' | 'backend';
 
 export default function Projects() {
     const [filter, setFilter] = useState<FilterCategory>('all');
@@ -31,7 +31,7 @@ export default function Projects() {
 
                 {/* Project Filter Controls */}
                 <div className="flex flex-wrap gap-1.5 bg-slate-950/60 p-1 rounded-lg border border-slate-900 max-w-max">
-                    {(['all', 'fullstack', 'frontend', 'system'] as FilterCategory[]).map((cat) => (
+                    {(['all', 'fullstack', 'frontend', 'backend'] as FilterCategory[]).map((cat) => (
                         <button
                             key={cat}
                             onClick={() => setFilter(cat)}
